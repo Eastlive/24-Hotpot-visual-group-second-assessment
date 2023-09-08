@@ -1,0 +1,64 @@
+[0.025s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_client': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_client -- -j8 -l8
+[0.065s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.281s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.302s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.350s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.356s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.369s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.386s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.539s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.542s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.759s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.095s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.218s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.313s] -- Found miner_interfaces: 0.0.0 (/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake)
+[1.454s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.555s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.556s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/miner_client/include>
+[1.556s] -- Configured cppcheck exclude dirs and/or files: 
+[1.556s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.558s] -- Added test 'lint_cmake' to check CMake code style
+[1.558s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.559s] -- Added test 'uncrustify' to check C / C++ code style
+[1.559s] -- Configured uncrustify additional arguments: 
+[1.560s] -- Added test 'xmllint' to check XML markup files
+[1.564s] -- Configuring done
+[1.594s] -- Generating done
+[1.598s] -- Build files have been written to: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_client
+[1.633s] [35m[1mConsolidate compiler generated dependencies of target miner_client[0m
+[1.637s] [35m[1mConsolidate compiler generated dependencies of target miner_client_node[0m
+[1.665s] [ 25%] [32mBuilding CXX object CMakeFiles/miner_client.dir/src/miner_client_node.cpp.o[0m
+[1.667s] [ 75%] Built target miner_client_node
+[13.375s] [100%] [32m[1mLinking CXX shared library libminer_client.so[0m
+[14.076s] [100%] Built target miner_client
+[14.085s] Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_client' returned '0': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_client -- -j8 -l8
+[14.121s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_client': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_client
+[14.132s] -- Install configuration: ""
+[14.133s] -- Execute custom install script
+[14.134s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/lib/miner_client/miner_client_node
+[14.135s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/include/miner_client/miner_client_node.hpp
+[14.135s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/launch/miner_client.launch.py
+[14.136s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/ament_index/resource_index/package_run_dependencies/miner_client
+[14.136s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/ament_index/resource_index/parent_prefix_path/miner_client
+[14.136s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/environment/ament_prefix_path.sh
+[14.137s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/environment/ament_prefix_path.dsv
+[14.137s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/environment/path.sh
+[14.137s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/environment/path.dsv
+[14.138s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/local_setup.bash
+[14.138s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/local_setup.sh
+[14.139s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/local_setup.zsh
+[14.139s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/local_setup.dsv
+[14.139s] -- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/package.dsv
+[14.149s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/ament_index/resource_index/packages/miner_client
+[14.149s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/ament_index/resource_index/rclcpp_components/miner_client
+[14.150s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/cmake/ament_cmake_export_targets-extras.cmake
+[14.150s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.150s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/cmake/miner_clientConfig.cmake
+[14.151s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/cmake/miner_clientConfig-version.cmake
+[14.151s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/package.xml
+[14.152s] -- Installing: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/lib/libminer_client.so
+[14.164s] -- Set runtime path of "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/lib/libminer_client.so" to ""
+[14.164s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/cmake/export_miner_clientExport.cmake
+[14.165s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/cmake/export_miner_clientExport-noconfig.cmake
+[14.184s] Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_client' returned '0': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_client

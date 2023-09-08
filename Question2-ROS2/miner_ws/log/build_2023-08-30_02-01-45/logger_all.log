@@ -1,0 +1,293 @@
+[0.198s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.198s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f04848f40d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0484812740>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0484812740>>)
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.222s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mine_publisher' with type 'ros.ament_cmake' and name 'mine_publisher'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mine_service' with type 'ros.ament_cmake' and name 'mine_service'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/miner_interfaces' with type 'ros.ament_cmake' and name 'miner_interfaces'
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install
+[0.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 309 installed packages in /opt/ros/humble
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'miner_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'miner_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'miner_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'miner_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'miner_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'miner_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'miner_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'miner_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'miner_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'miner_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces', 'merge_install': False, 'path': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/miner_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'mine_publisher' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'mine_publisher' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'mine_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'mine_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'mine_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'mine_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'mine_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'mine_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'mine_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'mine_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher', 'merge_install': False, 'path': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_publisher', 'symlink_install': True, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'mine_service' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'mine_service' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'mine_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'mine_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'mine_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'mine_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'mine_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'mine_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'mine_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'mine_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service', 'merge_install': False, 'path': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service', 'symlink_install': True, 'test_result_base': None}
+[0.302s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.305s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.305s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/miner_interfaces' with build type 'ament_cmake'
+[0.305s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/miner_interfaces'
+[0.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces -- -j8 -l8
+[0.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces -- -j8 -l8
+[0.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces
+[0.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(miner_interfaces)
+[0.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces' for CMake module files
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces' for CMake config files
+[0.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('miner_interfaces', 'cmake_prefix_path')
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/hook/cmake_prefix_path.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/hook/cmake_prefix_path.dsv'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/hook/cmake_prefix_path.sh'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib'
+[0.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('miner_interfaces', 'ld_library_path_lib')
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/hook/ld_library_path_lib.ps1'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/hook/ld_library_path_lib.dsv'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/hook/ld_library_path_lib.sh'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/bin'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/pkgconfig/miner_interfaces.pc'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/python3.10/site-packages'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/bin'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.ps1'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.dsv'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.sh'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.bash'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.zsh'
+[0.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/colcon-core/packages/miner_interfaces)
+[0.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(miner_interfaces)
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces' for CMake module files
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces' for CMake config files
+[0.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('miner_interfaces', 'cmake_prefix_path')
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/hook/cmake_prefix_path.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/hook/cmake_prefix_path.dsv'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/hook/cmake_prefix_path.sh'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib'
+[0.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('miner_interfaces', 'ld_library_path_lib')
+[0.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/hook/ld_library_path_lib.ps1'
+[0.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/hook/ld_library_path_lib.dsv'
+[0.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/hook/ld_library_path_lib.sh'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/bin'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/pkgconfig/miner_interfaces.pc'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/python3.10/site-packages'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/bin'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.ps1'
+[0.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.dsv'
+[0.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.sh'
+[0.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.bash'
+[0.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.zsh'
+[0.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/colcon-core/packages/miner_interfaces)
+[0.915s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_publisher' with build type 'ament_cmake'
+[0.915s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_publisher'
+[0.916s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.916s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.920s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service' with build type 'ament_cmake'
+[0.920s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service'
+[0.921s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.921s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher -- -j8 -l8
+[0.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service -- -j8 -l8
+[1.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher' returned '0': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher -- -j8 -l8
+[1.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher
+[1.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mine_publisher)
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher' for CMake module files
+[1.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher' returned '0': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher' for CMake config files
+[1.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('mine_publisher', 'cmake_prefix_path')
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/hook/cmake_prefix_path.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/hook/cmake_prefix_path.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/hook/cmake_prefix_path.sh'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib'
+[1.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('mine_publisher', 'ld_library_path_lib')
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/hook/ld_library_path_lib.ps1'
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/hook/ld_library_path_lib.dsv'
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/hook/ld_library_path_lib.sh'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/bin'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib/pkgconfig/mine_publisher.pc'
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib/python3.10/site-packages'
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/bin'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/package.ps1'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/package.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/package.sh'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/package.bash'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/package.zsh'
+[1.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/colcon-core/packages/mine_publisher)
+[1.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mine_publisher)
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher' for CMake module files
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher' for CMake config files
+[1.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('mine_publisher', 'cmake_prefix_path')
+[1.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/hook/cmake_prefix_path.ps1'
+[1.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/hook/cmake_prefix_path.dsv'
+[1.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/hook/cmake_prefix_path.sh'
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib'
+[1.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('mine_publisher', 'ld_library_path_lib')
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/hook/ld_library_path_lib.ps1'
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/hook/ld_library_path_lib.dsv'
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/hook/ld_library_path_lib.sh'
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/bin'
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib/pkgconfig/mine_publisher.pc'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib/python3.10/site-packages'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/bin'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/package.ps1'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/package.dsv'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/package.sh'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/package.bash'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/package.zsh'
+[1.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/colcon-core/packages/mine_publisher)
+[13.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service' returned '0': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service -- -j8 -l8
+[13.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service
+[13.854s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mine_service)
+[13.857s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service' for CMake module files
+[13.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service' returned '0': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service
+[13.858s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service' for CMake config files
+[13.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('mine_service', 'cmake_prefix_path')
+[13.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/hook/cmake_prefix_path.ps1'
+[13.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/hook/cmake_prefix_path.dsv'
+[13.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/hook/cmake_prefix_path.sh'
+[13.861s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib'
+[13.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('mine_service', 'ld_library_path_lib')
+[13.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/hook/ld_library_path_lib.ps1'
+[13.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/hook/ld_library_path_lib.dsv'
+[13.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/hook/ld_library_path_lib.sh'
+[13.862s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/bin'
+[13.862s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib/pkgconfig/mine_service.pc'
+[13.862s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib/python3.10/site-packages'
+[13.862s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/bin'
+[13.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/package.ps1'
+[13.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/package.dsv'
+[13.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/package.sh'
+[13.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/package.bash'
+[13.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/package.zsh'
+[13.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/colcon-core/packages/mine_service)
+[13.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mine_service)
+[13.903s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service' for CMake module files
+[13.904s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service' for CMake config files
+[13.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('mine_service', 'cmake_prefix_path')
+[13.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/hook/cmake_prefix_path.ps1'
+[13.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/hook/cmake_prefix_path.dsv'
+[13.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/hook/cmake_prefix_path.sh'
+[13.910s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib'
+[13.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('mine_service', 'ld_library_path_lib')
+[13.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/hook/ld_library_path_lib.ps1'
+[13.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/hook/ld_library_path_lib.dsv'
+[13.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/hook/ld_library_path_lib.sh'
+[13.915s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/bin'
+[13.915s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib/pkgconfig/mine_service.pc'
+[13.915s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib/python3.10/site-packages'
+[13.916s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/bin'
+[13.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/package.ps1'
+[13.919s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/package.dsv'
+[13.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/package.sh'
+[13.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/package.bash'
+[13.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/mine_service/package.zsh'
+[13.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/share/colcon-core/packages/mine_service)
+[13.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.924s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.924s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.924s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.932s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.932s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.932s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.946s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.947s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/local_setup.ps1'
+[13.948s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/_local_setup_util_ps1.py'
+[13.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/setup.ps1'
+[13.950s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/local_setup.sh'
+[13.950s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/_local_setup_util_sh.py'
+[13.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/setup.sh'
+[13.952s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/local_setup.bash'
+[13.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/setup.bash'
+[13.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/local_setup.zsh'
+[13.954s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/setup.zsh'

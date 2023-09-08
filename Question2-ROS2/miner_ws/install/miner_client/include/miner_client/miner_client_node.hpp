@@ -1,0 +1,1 @@
+/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/miner_client/include/miner_client/miner_client_node.hpp

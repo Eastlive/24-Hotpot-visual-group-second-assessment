@@ -1,0 +1,430 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (miner_interfaces) JobQueued: {'identifier': 'miner_interfaces', 'dependencies': OrderedDict()}
+[0.000202] (mine_publisher) JobQueued: {'identifier': 'mine_publisher', 'dependencies': OrderedDict([('miner_interfaces', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces')])}
+[0.000219] (mine_service) JobQueued: {'identifier': 'mine_service', 'dependencies': OrderedDict([('miner_interfaces', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces')])}
+[0.000232] (miner_client) JobQueued: {'identifier': 'miner_client', 'dependencies': OrderedDict([('miner_interfaces', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces')])}
+[0.000245] (miner_interfaces) JobStarted: {'identifier': 'miner_interfaces'}
+[0.007957] (miner_interfaces) JobProgress: {'identifier': 'miner_interfaces', 'progress': 'cmake'}
+[0.008723] (miner_interfaces) JobProgress: {'identifier': 'miner_interfaces', 'progress': 'build'}
+[0.009273] (miner_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'hecate'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hecate'), ('OLDPWD', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1112'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ce03ca64f0d47492c62ff5bd64f41a37'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:8889/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hecate'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('http_proxy', 'http://127.0.0.1:8889/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hecate'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hecate-Yoga-Duet-ITL-2021:@/tmp/.ICE-unix/1112,unix/hecate-Yoga-Duet-ITL-2021:/tmp/.ICE-unix/1112'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d60f608_f8c8_4a8a_b809_9bf32b7639b1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7ACLA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ce03ca64f0d47492c62ff5bd64f41a37'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044095] (miner_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099102] (-) TimerEvent: {}
+[0.148586] (miner_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.158344] (miner_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.183903] (miner_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.186141] (miner_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.191654] (miner_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.199253] (-) TimerEvent: {}
+[0.200524] (miner_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.212460] (miner_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.294297] (miner_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.299443] (miner_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.299538] (-) TimerEvent: {}
+[0.399813] (-) TimerEvent: {}
+[0.500118] (-) TimerEvent: {}
+[0.525239] (miner_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600291] (-) TimerEvent: {}
+[0.700708] (-) TimerEvent: {}
+[0.801147] (-) TimerEvent: {}
+[0.828795] (miner_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901356] (-) TimerEvent: {}
+[0.944780] (miner_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.961974] (miner_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.977113] (miner_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.977274] (miner_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.977342] (miner_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.001431] (-) TimerEvent: {}
+[1.007778] (miner_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.008533] (miner_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.013973] (miner_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.054867] (miner_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.057030] (miner_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces\n'}
+[1.077811] (miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.084182] (miner_interfaces) StdoutLine: {'line': b'[  2%] Built target miner_interfaces__cpp\n'}
+[1.088275] (miner_interfaces) StdoutLine: {'line': b'[ 12%] Built target miner_interfaces__rosidl_generator_c\n'}
+[1.090235] (miner_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_miner_interfaces\n'}
+[1.094552] (miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.094998] (miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.095611] (miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.099867] (miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.100250] (miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.100546] (miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.101512] (-) TimerEvent: {}
+[1.111309] (miner_interfaces) StdoutLine: {'line': b'[ 23%] Built target miner_interfaces__rosidl_typesupport_cpp\n'}
+[1.114425] (miner_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/miner_interfaces/msg/detail/dds_fastrtps/ore__type_support.cpp.o\x1b[0m\n'}
+[1.114653] (miner_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/miner_interfaces/msg/detail/dds_fastrtps/ores__type_support.cpp.o\x1b[0m\n'}
+[1.114744] (miner_interfaces) StdoutLine: {'line': b'[ 38%] Built target miner_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.117579] (miner_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/miner_interfaces/msg/detail/ore__type_support.c.o\x1b[0m\n'}
+[1.124043] (miner_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/miner_interfaces/srv/detail/dds_fastrtps/mine_map__type_support.cpp.o\x1b[0m\n'}
+[1.124619] (miner_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/miner_interfaces/msg/detail/ore__type_support_c.cpp.o\x1b[0m\n'}
+[1.126250] (miner_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/miner_interfaces/msg/detail/ores__type_support.c.o\x1b[0m\n'}
+[1.149091] (miner_interfaces) StdoutLine: {'line': b'[ 57%] Built target miner_interfaces__rosidl_typesupport_c\n'}
+[1.185959] (miner_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/miner_interfaces/msg/detail/ores__type_support_c.cpp.o\x1b[0m\n'}
+[1.188967] (miner_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/miner_interfaces/srv/detail/mine_map__type_support_c.cpp.o\x1b[0m\n'}
+[1.189284] (miner_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/miner_interfaces/srv/detail/mine_map__type_support.c.o\x1b[0m\n'}
+[1.201622] (-) TimerEvent: {}
+[1.267049] (miner_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libminer_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.301736] (-) TimerEvent: {}
+[1.402090] (-) TimerEvent: {}
+[1.414339] (miner_interfaces) StdoutLine: {'line': b'[ 68%] Built target miner_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.478276] (miner_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.479593] (miner_interfaces) StdoutLine: {'line': b'writing miner_interfaces.egg-info/PKG-INFO\n'}
+[1.479888] (miner_interfaces) StdoutLine: {'line': b'writing dependency_links to miner_interfaces.egg-info/dependency_links.txt\n'}
+[1.480112] (miner_interfaces) StdoutLine: {'line': b'writing top-level names to miner_interfaces.egg-info/top_level.txt\n'}
+[1.485931] (miner_interfaces) StdoutLine: {'line': b"reading manifest file 'miner_interfaces.egg-info/SOURCES.txt'\n"}
+[1.487501] (miner_interfaces) StdoutLine: {'line': b"writing manifest file 'miner_interfaces.egg-info/SOURCES.txt'\n"}
+[1.502221] (-) TimerEvent: {}
+[1.549230] (miner_interfaces) StdoutLine: {'line': b'[ 68%] Built target ament_cmake_python_build_miner_interfaces_egg\n'}
+[1.602340] (-) TimerEvent: {}
+[1.679715] (miner_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libminer_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.702456] (-) TimerEvent: {}
+[1.773788] (miner_interfaces) StdoutLine: {'line': b'[ 72%] Built target miner_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.783964] (miner_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libminer_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.802555] (-) TimerEvent: {}
+[1.871509] (miner_interfaces) StdoutLine: {'line': b'[ 76%] Built target miner_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.887363] (miner_interfaces) StdoutLine: {'line': b'[ 76%] Built target miner_interfaces\n'}
+[1.902723] (-) TimerEvent: {}
+[1.904304] (miner_interfaces) StdoutLine: {'line': b'[ 78%] Built target miner_interfaces__py\n'}
+[1.913133] (miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_generator_py\x1b[0m\n'}
+[1.930622] (miner_interfaces) StdoutLine: {'line': b'[ 87%] Built target miner_interfaces__rosidl_generator_py\n'}
+[1.947055] (miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.956732] (miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.957029] (miner_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.969752] (miner_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/miner_interfaces/miner_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.970013] (miner_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/miner_interfaces/miner_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.973445] (miner_interfaces) StdoutLine: {'line': b'[ 95%] Built target miner_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.002835] (-) TimerEvent: {}
+[2.007936] (miner_interfaces) StdoutLine: {'line': b'[ 97%] Built target miner_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.009891] (miner_interfaces) StdoutLine: {'line': b'[100%] Built target miner_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.018296] (miner_interfaces) CommandEnded: {'returncode': 0}
+[2.083839] (miner_interfaces) JobProgress: {'identifier': 'miner_interfaces', 'progress': 'install'}
+[2.091229] (miner_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces'], 'cwd': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'hecate'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hecate'), ('OLDPWD', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1112'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ce03ca64f0d47492c62ff5bd64f41a37'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:8889/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hecate'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('http_proxy', 'http://127.0.0.1:8889/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hecate'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hecate-Yoga-Duet-ITL-2021:@/tmp/.ICE-unix/1112,unix/hecate-Yoga-Duet-ITL-2021:/tmp/.ICE-unix/1112'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d60f608_f8c8_4a8a_b809_9bf32b7639b1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7ACLA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ce03ca64f0d47492c62ff5bd64f41a37'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.101069] (miner_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.101684] (miner_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.101908] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/ament_index/resource_index/rosidl_interfaces/miner_interfaces\n'}
+[2.102477] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__functions.h\n'}
+[2.102602] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__struct.h\n'}
+[2.102715] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__type_support.h\n'}
+[2.102805] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__functions.h\n'}
+[2.102902] (-) TimerEvent: {}
+[2.103066] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__struct.h\n'}
+[2.103224] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__type_support.h\n'}
+[2.103307] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/ore.h\n'}
+[2.103410] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/ores.h\n'}
+[2.103478] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.103549] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__functions.h\n'}
+[2.103641] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__struct.h\n'}
+[2.103711] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__type_support.h\n'}
+[2.103805] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/mine_map.h\n'}
+[2.103900] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/library_path.sh\n'}
+[2.104052] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/library_path.dsv\n'}
+[2.104575] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__rosidl_typesupport_fastrtps_c.h\n'}
+[2.104667] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__rosidl_typesupport_fastrtps_c.h\n'}
+[2.104774] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.104946] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__rosidl_typesupport_fastrtps_c.h\n'}
+[2.105548] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__builder.hpp\n'}
+[2.105657] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__struct.hpp\n'}
+[2.105749] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__traits.hpp\n'}
+[2.105882] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__builder.hpp\n'}
+[2.106059] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__struct.hpp\n'}
+[2.106218] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__traits.hpp\n'}
+[2.106386] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/ore.hpp\n'}
+[2.106508] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/ores.hpp\n'}
+[2.106610] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__builder.hpp\n'}
+[2.106717] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__struct.hpp\n'}
+[2.106824] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__traits.hpp\n'}
+[2.106929] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/mine_map.hpp\n'}
+[2.107516] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.107618] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.107718] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.107796] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.108112] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__rosidl_typesupport_introspection_c.h\n'}
+[2.108198] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__rosidl_typesupport_introspection_c.h\n'}
+[2.108288] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.108381] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__rosidl_typesupport_introspection_c.h\n'}
+[2.108681] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.108767] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.108860] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.109004] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/pythonpath.sh\n'}
+[2.109143] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/pythonpath.dsv\n'}
+[2.109417] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.109512] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.109604] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.109693] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.110262] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/__init__.py\n'}
+[2.110336] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/_miner_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.110417] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/_miner_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.110501] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/_miner_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.110582] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/libminer_interfaces__rosidl_generator_py.so\n'}
+[2.110670] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/miner_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.110759] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/miner_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.110850] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/miner_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.110940] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/msg/__init__.py\n'}
+[2.111030] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/msg/_ore.py\n'}
+[2.111119] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/msg/_ore_s.c\n'}
+[2.111209] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/msg/_ores.py\n'}
+[2.111295] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/msg/_ores_s.c\n'}
+[2.111383] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/srv/__init__.py\n'}
+[2.111471] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/srv/_mine_map.py\n'}
+[2.111559] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/srv/_mine_map_s.c\n'}
+[2.111799] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/miner_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.112030] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/miner_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.112255] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/miner_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.112391] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/msg/Ore.idl\n'}
+[2.112525] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/msg/Ores.idl\n'}
+[2.112660] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/srv/MineMap.idl\n'}
+[2.112784] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/msg/Ore.msg\n'}
+[2.112907] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/msg/Ores.msg\n'}
+[2.113028] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/srv/MineMap.srv\n'}
+[2.113156] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/srv/MineMap_Request.msg\n'}
+[2.113283] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/srv/MineMap_Response.msg\n'}
+[2.113434] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/ament_index/resource_index/package_run_dependencies/miner_interfaces\n'}
+[2.113569] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/ament_index/resource_index/parent_prefix_path/miner_interfaces\n'}
+[2.113698] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/ament_prefix_path.sh\n'}
+[2.113827] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.113952] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/path.sh\n'}
+[2.114076] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/path.dsv\n'}
+[2.114199] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/local_setup.bash\n'}
+[2.114321] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/local_setup.sh\n'}
+[2.114443] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/local_setup.zsh\n'}
+[2.114563] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/local_setup.dsv\n'}
+[2.114672] (miner_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.dsv\n'}
+[2.121604] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/ament_index/resource_index/packages/miner_interfaces\n'}
+[2.121793] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.121858] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.121936] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.122008] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.122078] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.122156] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.122252] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.122359] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfacesConfig.cmake\n'}
+[2.122430] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfacesConfig-version.cmake\n'}
+[2.122525] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.xml\n'}
+[2.123965] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_generator_c.so\n'}
+[2.124526] (miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.124924] (miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.125454] (miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.125989] (miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.126508] (miner_interfaces) StdoutLine: {'line': b'-- Installing: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.126823] (miner_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.127130] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_c.so\n'}
+[2.127689] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.128158] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.159841] (miner_interfaces) StdoutLine: {'line': b"Listing '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces'...\n"}
+[2.160013] (miner_interfaces) StdoutLine: {'line': b"Compiling '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/__init__.py'...\n"}
+[2.160076] (miner_interfaces) StdoutLine: {'line': b"Listing '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/msg'...\n"}
+[2.160128] (miner_interfaces) StdoutLine: {'line': b"Listing '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/srv'...\n"}
+[2.164257] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_generator_py.so\n'}
+[2.164413] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.164501] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.164580] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.164655] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.164738] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.164812] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.164889] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.164996] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.165061] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.165185] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.165253] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.165433] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.165486] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.165564] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.165614] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.165760] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.165830] (miner_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.167481] (miner_interfaces) CommandEnded: {'returncode': 0}
+[2.203021] (-) TimerEvent: {}
+[2.266431] (miner_interfaces) JobEnded: {'identifier': 'miner_interfaces', 'rc': 0}
+[2.268607] (mine_publisher) JobStarted: {'identifier': 'mine_publisher'}
+[2.270252] (mine_service) JobStarted: {'identifier': 'mine_service'}
+[2.273836] (miner_client) JobStarted: {'identifier': 'miner_client'}
+[2.278304] (mine_publisher) JobProgress: {'identifier': 'mine_publisher', 'progress': 'cmake'}
+[2.279399] (mine_publisher) JobProgress: {'identifier': 'mine_publisher', 'progress': 'build'}
+[2.279721] (mine_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher', '--', '-j8', '-l8'], 'cwd': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'hecate'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hecate'), ('OLDPWD', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1112'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ce03ca64f0d47492c62ff5bd64f41a37'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:8889/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hecate'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('http_proxy', 'http://127.0.0.1:8889/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hecate'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hecate-Yoga-Duet-ITL-2021:@/tmp/.ICE-unix/1112,unix/hecate-Yoga-Duet-ITL-2021:/tmp/.ICE-unix/1112'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d60f608_f8c8_4a8a_b809_9bf32b7639b1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7ACLA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ce03ca64f0d47492c62ff5bd64f41a37'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble')]), 'shell': False}
+[2.281457] (mine_service) JobProgress: {'identifier': 'mine_service', 'progress': 'cmake'}
+[2.282144] (mine_service) JobProgress: {'identifier': 'mine_service', 'progress': 'build'}
+[2.282570] (mine_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service', '--', '-j8', '-l8'], 'cwd': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'hecate'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hecate'), ('OLDPWD', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1112'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ce03ca64f0d47492c62ff5bd64f41a37'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:8889/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hecate'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('http_proxy', 'http://127.0.0.1:8889/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hecate'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hecate-Yoga-Duet-ITL-2021:@/tmp/.ICE-unix/1112,unix/hecate-Yoga-Duet-ITL-2021:/tmp/.ICE-unix/1112'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d60f608_f8c8_4a8a_b809_9bf32b7639b1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7ACLA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ce03ca64f0d47492c62ff5bd64f41a37'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble')]), 'shell': False}
+[2.285411] (miner_client) JobProgress: {'identifier': 'miner_client', 'progress': 'cmake'}
+[2.285720] (miner_client) Command: {'cmd': ['/usr/bin/cmake', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/miner_client', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client'], 'cwd': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'hecate'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hecate'), ('OLDPWD', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1112'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ce03ca64f0d47492c62ff5bd64f41a37'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:8889/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hecate'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('http_proxy', 'http://127.0.0.1:8889/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hecate'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hecate-Yoga-Duet-ITL-2021:@/tmp/.ICE-unix/1112,unix/hecate-Yoga-Duet-ITL-2021:/tmp/.ICE-unix/1112'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d60f608_f8c8_4a8a_b809_9bf32b7639b1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7ACLA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_client'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ce03ca64f0d47492c62ff5bd64f41a37'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble')]), 'shell': False}
+[2.292794] (miner_client) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:33:\n'}
+[2.293085] (miner_client) StderrLine: {'line': b'  Parse error.  Expected a command name, got unquoted argument with text\n'}
+[2.293155] (miner_client) StderrLine: {'line': b'  "ament_target_dependencies{${PROJECT_NAME}".\n'}
+[2.293205] (miner_client) StderrLine: {'line': b'\n'}
+[2.293254] (miner_client) StderrLine: {'line': b'\x1b[0m\n'}
+[2.293317] (miner_client) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.294641] (miner_client) CommandEnded: {'returncode': 1}
+[2.303159] (-) TimerEvent: {}
+[2.309711] (mine_service) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.310970] (miner_client) JobEnded: {'identifier': 'miner_client', 'rc': 1}
+[2.340127] (mine_publisher) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mine_publisher.dir/src/mine_publisher_node.cpp.o\x1b[0m\n'}
+[2.340586] (mine_publisher) StdoutLine: {'line': b'[ 75%] Built target mine_publisher_node\n'}
+[2.403376] (-) TimerEvent: {}
+[2.428078] (mine_service) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.435201] (mine_service) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.464319] (mine_service) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.465779] (mine_service) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.470179] (mine_service) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.477756] (mine_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.488327] (mine_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.503647] (-) TimerEvent: {}
+[2.532807] (mine_service) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.534325] (mine_service) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.603737] (-) TimerEvent: {}
+[2.638356] (mine_service) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.704037] (-) TimerEvent: {}
+[2.771399] (mine_service) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.804297] (-) TimerEvent: {}
+[2.814192] (mine_service) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.849047] (mine_service) StdoutLine: {'line': b'-- Found miner_interfaces: 0.0.0 (/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake)\n'}
+[2.903087] (mine_service) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.903577] (mine_service) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.904330] (-) TimerEvent: {}
+[2.970777] (mine_service) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.977275] (mine_service) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.977520] (mine_service) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/include>\n'}
+[2.977626] (mine_service) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.978105] (mine_service) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.978824] (mine_service) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.978944] (mine_service) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.979111] (mine_service) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.981380] (mine_service) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.000688] (mine_service) StdoutLine: {'line': b'-- Generating done\n'}
+[3.002398] (mine_service) StdoutLine: {'line': b'-- Build files have been written to: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service\n'}
+[3.004436] (-) TimerEvent: {}
+[3.024739] (mine_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mine_service_node\x1b[0m\n'}
+[3.024971] (mine_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mine_service\x1b[0m\n'}
+[3.026211] (mine_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[3.026391] (mine_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[3.040722] (mine_service) StdoutLine: {'line': b'[ 20%] Built target mine_service_node\n'}
+[3.042422] (mine_service) StdoutLine: {'line': b'[ 40%] Built target gtest\n'}
+[3.042581] (mine_service) StdoutLine: {'line': b'[ 60%] Built target gtest_main\n'}
+[3.049606] (mine_service) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/mine_service.dir/src/mine_service_node.cpp.o\x1b[0m\n'}
+[3.104723] (-) TimerEvent: {}
+[3.205390] (-) TimerEvent: {}
+[3.305812] (-) TimerEvent: {}
+[3.406180] (-) TimerEvent: {}
+[3.506672] (-) TimerEvent: {}
+[3.607081] (-) TimerEvent: {}
+[3.707530] (-) TimerEvent: {}
+[3.807958] (-) TimerEvent: {}
+[3.908515] (-) TimerEvent: {}
+[4.008984] (-) TimerEvent: {}
+[4.109595] (-) TimerEvent: {}
+[4.210162] (-) TimerEvent: {}
+[4.310579] (-) TimerEvent: {}
+[4.411064] (-) TimerEvent: {}
+[4.511504] (-) TimerEvent: {}
+[4.612063] (-) TimerEvent: {}
+[4.712724] (-) TimerEvent: {}
+[4.813179] (-) TimerEvent: {}
+[4.913551] (-) TimerEvent: {}
+[5.013896] (-) TimerEvent: {}
+[5.114208] (-) TimerEvent: {}
+[5.214536] (-) TimerEvent: {}
+[5.314847] (-) TimerEvent: {}
+[5.415217] (-) TimerEvent: {}
+[5.515591] (-) TimerEvent: {}
+[5.615911] (-) TimerEvent: {}
+[5.716272] (-) TimerEvent: {}
+[5.816617] (-) TimerEvent: {}
+[5.916952] (-) TimerEvent: {}
+[6.017320] (-) TimerEvent: {}
+[6.022196] (mine_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmine_publisher.so\x1b[0m\n'}
+[6.117444] (-) TimerEvent: {}
+[6.217883] (-) TimerEvent: {}
+[6.218223] (mine_publisher) StdoutLine: {'line': b'[100%] Built target mine_publisher\n'}
+[6.232950] (mine_publisher) JobEnded: {'identifier': 'mine_publisher', 'rc': 'SIGINT'}
+[6.317986] (-) TimerEvent: {}
+[6.418351] (-) TimerEvent: {}
+[6.518682] (-) TimerEvent: {}
+[6.618997] (-) TimerEvent: {}
+[6.719363] (-) TimerEvent: {}
+[6.819897] (-) TimerEvent: {}
+[6.920464] (-) TimerEvent: {}
+[7.020919] (-) TimerEvent: {}
+[7.121292] (-) TimerEvent: {}
+[7.221573] (-) TimerEvent: {}
+[7.321989] (-) TimerEvent: {}
+[7.422377] (-) TimerEvent: {}
+[7.522668] (-) TimerEvent: {}
+[7.622963] (-) TimerEvent: {}
+[7.723315] (-) TimerEvent: {}
+[7.823606] (-) TimerEvent: {}
+[7.923946] (-) TimerEvent: {}
+[8.024287] (-) TimerEvent: {}
+[8.124547] (-) TimerEvent: {}
+[8.224840] (-) TimerEvent: {}
+[8.325135] (-) TimerEvent: {}
+[8.425549] (-) TimerEvent: {}
+[8.525907] (-) TimerEvent: {}
+[8.626189] (-) TimerEvent: {}
+[8.726537] (-) TimerEvent: {}
+[8.826858] (-) TimerEvent: {}
+[8.927199] (-) TimerEvent: {}
+[9.027595] (-) TimerEvent: {}
+[9.127857] (-) TimerEvent: {}
+[9.228258] (-) TimerEvent: {}
+[9.328666] (-) TimerEvent: {}
+[9.429043] (-) TimerEvent: {}
+[9.529453] (-) TimerEvent: {}
+[9.629771] (-) TimerEvent: {}
+[9.730097] (-) TimerEvent: {}
+[9.830400] (-) TimerEvent: {}
+[9.868315] (mine_service) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libmine_service.so\x1b[0m\n'}
+[9.930532] (-) TimerEvent: {}
+[10.030843] (-) TimerEvent: {}
+[10.131255] (-) TimerEvent: {}
+[10.231526] (-) TimerEvent: {}
+[10.236927] (mine_service) StdoutLine: {'line': b'[ 80%] Built target mine_service\n'}
+[10.248462] (mine_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_mine_service\x1b[0m\n'}
+[10.263417] (mine_service) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object test/CMakeFiles/test_mine_service.dir/test_mine_service.cpp.o\x1b[0m\n'}
+[10.331700] (-) TimerEvent: {}
+[10.432062] (-) TimerEvent: {}
+[10.532422] (-) TimerEvent: {}
+[10.632875] (-) TimerEvent: {}
+[10.733289] (-) TimerEvent: {}
+[10.833599] (-) TimerEvent: {}
+[10.934012] (-) TimerEvent: {}
+[11.034413] (-) TimerEvent: {}
+[11.134821] (-) TimerEvent: {}
+[11.235119] (-) TimerEvent: {}
+[11.335536] (-) TimerEvent: {}
+[11.435825] (-) TimerEvent: {}
+[11.536191] (-) TimerEvent: {}
+[11.636532] (-) TimerEvent: {}
+[11.736919] (-) TimerEvent: {}
+[11.837440] (-) TimerEvent: {}
+[11.938003] (-) TimerEvent: {}
+[12.038377] (-) TimerEvent: {}
+[12.138760] (-) TimerEvent: {}
+[12.239085] (-) TimerEvent: {}
+[12.339608] (-) TimerEvent: {}
+[12.440258] (-) TimerEvent: {}
+[12.540859] (-) TimerEvent: {}
+[12.641246] (-) TimerEvent: {}
+[12.741526] (-) TimerEvent: {}
+[12.841830] (-) TimerEvent: {}
+[12.942413] (-) TimerEvent: {}
+[13.042729] (-) TimerEvent: {}
+[13.143080] (-) TimerEvent: {}
+[13.243364] (-) TimerEvent: {}
+[13.343678] (-) TimerEvent: {}
+[13.444035] (-) TimerEvent: {}
+[13.544420] (-) TimerEvent: {}
+[13.644816] (-) TimerEvent: {}
+[13.745145] (-) TimerEvent: {}
+[13.845562] (-) TimerEvent: {}
+[13.946080] (-) TimerEvent: {}
+[14.046429] (-) TimerEvent: {}
+[14.146841] (-) TimerEvent: {}
+[14.247118] (-) TimerEvent: {}
+[14.347537] (-) TimerEvent: {}
+[14.447896] (-) TimerEvent: {}
+[14.548336] (-) TimerEvent: {}
+[14.553484] (mine_service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_mine_service\x1b[0m\n'}
+[14.648522] (-) TimerEvent: {}
+[14.748926] (-) TimerEvent: {}
+[14.849327] (-) TimerEvent: {}
+[14.896476] (mine_service) StdoutLine: {'line': b'[100%] Built target test_mine_service\n'}
+[14.904962] (mine_service) JobEnded: {'identifier': 'mine_service', 'rc': 'SIGINT'}
+[14.915576] (-) EventReactorShutdown: {}

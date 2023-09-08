@@ -1,0 +1,49 @@
+[0.007s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher
+[0.019s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.131s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.136s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.157s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.160s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.166s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.227s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.228s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.311s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.419s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.460s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.489s] -- Found miner_interfaces: 0.0.0 (/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake)
+[0.533s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.582s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.582s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_publisher/include>
+[0.583s] -- Configured cppcheck exclude dirs and/or files: 
+[0.583s] -- Added test 'lint_cmake' to check CMake code style
+[0.583s] -- Added test 'uncrustify' to check C / C++ code style
+[0.583s] -- Configured uncrustify additional arguments: 
+[0.583s] -- Added test 'xmllint' to check XML markup files
+[0.585s] -- Configuring done
+[0.594s] -- Generating done
+[0.595s] -- Build files have been written to: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher
+[0.602s] Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher' returned '0': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher
+[0.603s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher -- -j8 -l8
+[0.641s] [ 50%] [32mBuilding CXX object CMakeFiles/mine_publisher_node.dir/rclcpp_components/node_main_mine_publisher_node.cpp.o[0m
+[0.641s] [ 50%] [32mBuilding CXX object CMakeFiles/mine_publisher.dir/src/mine_publisher_node.cpp.o[0m
+[3.071s] [ 75%] [32m[1mLinking CXX executable mine_publisher_node[0m
+[3.182s] [ 75%] Built target mine_publisher_node
+[4.181s] [100%] [32m[1mLinking CXX shared library libmine_publisher.so[0m
+[4.346s] [100%] Built target mine_publisher
+[4.360s] Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher' returned '0': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher -- -j8 -l8
+[4.382s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher
+[4.388s] -- Install configuration: ""
+[4.388s] -- Execute custom install script
+[4.389s] -- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib/mine_publisher/mine_publisher_node
+[4.395s] -- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/include/mine_publisher/mine_publisher_node.hpp
+[4.402s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[4.402s]   ament_cmake_symlink_install_directory() can't find
+[4.402s]   '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_publisher/launch'
+[4.402s] Call Stack (most recent call first):
+[4.402s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320 (ament_cmake_symlink_install_directory)
+[4.402s]   cmake_install.cmake:46 (include)
+[4.402s] 
+[4.403s] [0m
+[4.403s] Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher' returned '1': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_publisher

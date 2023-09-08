@@ -1,0 +1,8 @@
+[0.015s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service -- -j8 -l8
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target mine_service[0m
+[0.075s] [ 20%] Built target gtest
+[0.075s] [ 40%] Built target gtest_main
+[0.077s] [ 60%] Built target mine_service_node
+[0.090s] [ 80%] Built target mine_service
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target test_mine_service[0m
+[0.117s] [100%] Built target test_mine_service

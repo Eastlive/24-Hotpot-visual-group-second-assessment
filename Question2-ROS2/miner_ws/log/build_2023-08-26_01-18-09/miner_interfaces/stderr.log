@@ -1,0 +1,36 @@
+In file included from [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces/rosidl_generator_c/miner_interfaces/msg/detail/ores__functions.h:19[m[K,
+                 from [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces/rosidl_generator_c/miner_interfaces/msg/detail/ores__functions.c:4[m[K:
+[01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces/rosidl_generator_c/miner_interfaces/msg/detail/ores__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Kminer_interfaces/msg/detail/mine__struct.h: No such file or directory
+   24 | #include [01;31m[K"miner_interfaces/msg/detail/mine__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/miner_interfaces__rosidl_generator_c.dir/build.make:196: CMakeFiles/miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/miner_interfaces/msg/detail/ores__functions.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/miner_interfaces__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces/rosidl_typesupport_cpp/miner_interfaces/msg/ores__type_support.cpp:7[m[K:
+[01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces/rosidl_generator_cpp/miner_interfaces/msg/detail/ores__struct.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Kminer_interfaces/msg/detail/mine__struct.hpp: No such file or directory
+   22 | #include [01;31m[K"miner_interfaces/msg/detail/mine__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/miner_interfaces__rosidl_typesupport_cpp.dir/build.make:165: CMakeFiles/miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/miner_interfaces/msg/ores__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces/rosidl_typesupport_introspection_cpp/miner_interfaces/msg/detail/ores__type_support.cpp:12[m[K:
+[01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces/rosidl_generator_cpp/miner_interfaces/msg/detail/ores__struct.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Kminer_interfaces/msg/detail/mine__struct.hpp: No such file or directory
+   22 | #include [01;31m[K"miner_interfaces/msg/detail/mine__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces/rosidl_typesupport_fastrtps_cpp/miner_interfaces/msg/detail/ores__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces/rosidl_typesupport_fastrtps_cpp/miner_interfaces/msg/detail/dds_fastrtps/ores__type_support.cpp:4[m[K:
+[01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces/rosidl_generator_cpp/miner_interfaces/msg/detail/ores__struct.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Kminer_interfaces/msg/detail/mine__struct.hpp: No such file or directory
+   22 | #include [01;31m[K"miner_interfaces/msg/detail/mine__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:173: CMakeFiles/miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/miner_interfaces/msg/detail/dds_fastrtps/ores__type_support.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/miner_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:173: CMakeFiles/miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/miner_interfaces/msg/detail/ores__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/miner_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/miner_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

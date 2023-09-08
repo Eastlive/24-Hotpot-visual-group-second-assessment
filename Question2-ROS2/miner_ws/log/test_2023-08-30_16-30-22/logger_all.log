@@ -1,0 +1,108 @@
+[0.300s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test', '--event-handlers', 'console_cohesion+', '--return-code-on-test-failure', '--packages-select', 'mine_service']
+[0.300s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test', build_base='build', install_base='install', merge_install=False, test_result_base=None, retest_until_fail=0, retest_until_pass=0, abort_on_error=False, return_code_on_test_failure=True, executor='parallel', parallel_workers=8, event_handlers=['console_cohesion+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['mine_service'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], ctest_args=None, python_testing=None, pytest_args=None, pytest_with_coverage=False, unittest_args=None, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5e9f454b50>, verb_extension=<colcon_core.verb.test.TestVerb object at 0x7f5e9f583f10>, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x7f5e9f583f10>>)
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.320s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_publisher) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mine_publisher' with type 'ros.ament_cmake' and name 'mine_publisher'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_service) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mine_service' with type 'ros.ament_cmake' and name 'mine_service'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/miner_interfaces) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/miner_interfaces' with type 'ros.ament_cmake' and name 'miner_interfaces'
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.340s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'miner_interfaces' in 'src/miner_interfaces'
+[0.341s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mine_publisher' in 'src/mine_publisher'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'mine_service' test argument 'ctest_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'mine_service' test argument 'python_testing' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'mine_service' test argument 'pytest_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'mine_service' test argument 'pytest_with_coverage' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'mine_service' test argument 'unittest_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'mine_service' test argument 'retest_until_pass' from command line to '0'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'mine_service' test argument 'retest_until_fail' from command line to '0'
+[0.342s] DEBUG:colcon.colcon_core.verb.test:Testing package 'mine_service' with the following arguments: {'build_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service', 'ctest_args': None, 'install_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service', 'path': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.342s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.345s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.345s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service' with build type 'ament_cmake'
+[0.346s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service'
+[0.349s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[2.968s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service' returned '8': CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[2.969s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.969s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.969s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.977s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.977s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.977s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.987s] DEBUG:colcon.colcon_core.event_reactor:joined thread

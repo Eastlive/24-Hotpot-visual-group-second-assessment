@@ -1,0 +1,11 @@
+source;share/miner_client/hook/cmake_prefix_path.ps1
+source;share/miner_client/hook/cmake_prefix_path.dsv
+source;share/miner_client/hook/cmake_prefix_path.sh
+source;share/miner_client/hook/ld_library_path_lib.ps1
+source;share/miner_client/hook/ld_library_path_lib.dsv
+source;share/miner_client/hook/ld_library_path_lib.sh
+source;share/miner_client/local_setup.bash
+source;share/miner_client/local_setup.dsv
+source;share/miner_client/local_setup.ps1
+source;share/miner_client/local_setup.sh
+source;share/miner_client/local_setup.zsh

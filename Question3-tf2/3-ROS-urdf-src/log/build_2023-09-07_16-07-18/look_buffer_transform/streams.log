@@ -1,0 +1,24 @@
+[0.015s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform -- -j8 -l8
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target look_buffer_transform[0m
+[0.073s] [100%] Built target look_buffer_transform
+[0.083s] Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform -- -j8 -l8
+[0.108s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform
+[0.113s] -- Install configuration: ""
+[0.114s] -- Execute custom install script
+[0.114s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/lib/look_buffer_transform/look_buffer_transform
+[0.114s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/ament_index/resource_index/package_run_dependencies/look_buffer_transform
+[0.115s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/ament_index/resource_index/parent_prefix_path/look_buffer_transform
+[0.115s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/environment/ament_prefix_path.sh
+[0.115s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/environment/ament_prefix_path.dsv
+[0.115s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/environment/path.sh
+[0.115s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/environment/path.dsv
+[0.115s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/local_setup.bash
+[0.115s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/local_setup.sh
+[0.115s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/local_setup.zsh
+[0.116s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/local_setup.dsv
+[0.116s] -- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/package.dsv
+[0.129s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/ament_index/resource_index/packages/look_buffer_transform
+[0.129s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/cmake/look_buffer_transformConfig.cmake
+[0.129s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/cmake/look_buffer_transformConfig-version.cmake
+[0.129s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/package.xml
+[0.145s] Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform

@@ -1,0 +1,13 @@
+[01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/src/mine_service_node.cpp:[m[K In constructor ‘[01m[Kmine_service::MineServiceNode::MineServiceNode(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/src/mine_service_node.cpp:15:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 | MineServiceNode::MineServiceNode([01;35m[Kconst rclcpp::NodeOptions& options[m[K) : Node("mine_service")
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/src/mine_service_node.cpp:[m[K In member function ‘[01m[Kvoid mine_service::MineServiceNode::mine_service(std::shared_ptr<miner_interfaces::srv::MineMap_Request_<std::allocator<void> > >, std::shared_ptr<miner_interfaces::srv::MineMap_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/src/mine_service_node.cpp:33:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   33 | [01;35m[Kconst std::shared_ptr<miner_interfaces::srv::MineMap::Request> request[m[K,
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/src/mine_service_node.cpp:34:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krespense[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   34 | [01;35m[Knst std::shared_ptr<miner_interfaces::srv::MineMap::Response> respense[m[K)
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+

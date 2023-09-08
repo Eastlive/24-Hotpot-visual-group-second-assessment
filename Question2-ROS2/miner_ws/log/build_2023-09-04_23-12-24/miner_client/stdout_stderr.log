@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target miner_client[0m
+[ 50%] Built target miner_client
+[100%] Built target miner_client_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/lib/miner_client/miner_client_node
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/include/miner_client/miner_client_node.hpp
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/launch/miner_client.launch.py
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/ament_index/resource_index/package_run_dependencies/miner_client
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/ament_index/resource_index/parent_prefix_path/miner_client

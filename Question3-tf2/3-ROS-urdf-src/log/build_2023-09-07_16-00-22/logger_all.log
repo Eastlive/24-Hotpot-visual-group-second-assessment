@@ -1,0 +1,213 @@
+[0.215s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.215s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0fd2458250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0fd25fe800>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0fd25fe800>>)
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.242s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_description) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_description) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_description) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_description) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_description) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_description) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_description) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_description) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_description) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hero_description' with type 'ros.ament_cmake' and name 'hero_description'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_buffer_transform) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_buffer_transform) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_buffer_transform) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_buffer_transform) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_buffer_transform) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_buffer_transform) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_buffer_transform) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_buffer_transform) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_buffer_transform) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/look_buffer_transform' with type 'ros.ament_cmake' and name 'look_buffer_transform'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_transform) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_transform) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_transform) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_transform) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_transform) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_transform) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_transform) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_transform) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/look_transform) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/look_transform' with type 'ros.ament_cmake' and name 'look_transform'
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.274s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_transform' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.274s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.274s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_transform' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.274s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.275s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 312 installed packages in /opt/ros/humble
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hero_description' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hero_description' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hero_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hero_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hero_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hero_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hero_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hero_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hero_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.330s] DEBUG:colcon.colcon_core.verb:Building package 'hero_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/hero_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description', 'merge_install': False, 'path': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/hero_description', 'symlink_install': True, 'test_result_base': None}
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'look_buffer_transform' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'look_buffer_transform' build argument 'cmake_target' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'look_buffer_transform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'look_buffer_transform' build argument 'cmake_clean_cache' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'look_buffer_transform' build argument 'cmake_clean_first' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'look_buffer_transform' build argument 'cmake_force_configure' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'look_buffer_transform' build argument 'ament_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'look_buffer_transform' build argument 'catkin_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'look_buffer_transform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.331s] DEBUG:colcon.colcon_core.verb:Building package 'look_buffer_transform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform', 'merge_install': False, 'path': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/look_buffer_transform', 'symlink_install': True, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'look_transform' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'look_transform' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'look_transform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'look_transform' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'look_transform' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'look_transform' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'look_transform' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'look_transform' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'look_transform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'look_transform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_transform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_transform', 'merge_install': False, 'path': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/look_transform', 'symlink_install': True, 'test_result_base': None}
+[0.332s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.335s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.335s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/hero_description' with build type 'ament_cmake'
+[0.335s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/hero_description'
+[0.340s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/look_buffer_transform' with build type 'ament_cmake'
+[0.345s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/look_buffer_transform'
+[0.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.350s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/look_transform' with build type 'ament_cmake'
+[0.350s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/look_transform'
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/hero_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/hero_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description
+[0.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/look_buffer_transform -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform
+[0.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/look_transform -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_transform
+[1.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/hero_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/hero_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description
+[1.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/hero_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/hero_description -- -j8 -l8
+[1.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/hero_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/hero_description -- -j8 -l8
+[1.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/hero_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/hero_description
+[1.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hero_description)
+[1.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/hero_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/hero_description
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description' for CMake module files
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description' for CMake config files
+[1.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('hero_description', 'cmake_prefix_path')
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/hook/cmake_prefix_path.ps1'
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/hook/cmake_prefix_path.dsv'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/hook/cmake_prefix_path.sh'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/bin'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/lib/pkgconfig/hero_description.pc'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/lib/python3.10/site-packages'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/bin'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/package.ps1'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/package.dsv'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/package.sh'
+[1.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/package.bash'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/package.zsh'
+[1.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/colcon-core/packages/hero_description)
+[1.540s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hero_description)
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description' for CMake module files
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description' for CMake config files
+[1.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('hero_description', 'cmake_prefix_path')
+[1.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/hook/cmake_prefix_path.ps1'
+[1.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/hook/cmake_prefix_path.dsv'
+[1.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/hook/cmake_prefix_path.sh'
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/bin'
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/lib/pkgconfig/hero_description.pc'
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/lib/python3.10/site-packages'
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/bin'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/package.ps1'
+[1.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/package.dsv'
+[1.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/package.sh'
+[1.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/package.bash'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/hero_description/package.zsh'
+[1.548s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/hero_description/share/colcon-core/packages/hero_description)
+[2.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/look_transform -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_transform
+[2.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_transform -- -j8 -l8
+[2.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/src/look_buffer_transform -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform
+[2.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform -- -j8 -l8
+[6.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/build/look_buffer_transform -- -j8 -l8
+[6.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(look_buffer_transform)
+[6.121s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform' for CMake module files
+[6.122s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform' for CMake config files
+[6.122s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/bin'
+[6.122s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/lib/pkgconfig/look_buffer_transform.pc'
+[6.123s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/lib/python3.10/site-packages'
+[6.123s] Level 1:colcon.colcon_core.environment:checking '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/bin'
+[6.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/package.ps1'
+[6.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/package.dsv'
+[6.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/package.sh'
+[6.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/package.bash'
+[6.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/package.zsh'
+[6.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/colcon-core/packages/look_buffer_transform)
+[6.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[6.158s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.163s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.175s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.177s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/local_setup.ps1'
+[6.178s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/_local_setup_util_ps1.py'
+[6.180s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/setup.ps1'
+[6.182s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/local_setup.sh'
+[6.182s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/_local_setup_util_sh.py'
+[6.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/setup.sh'
+[6.183s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/local_setup.bash'
+[6.184s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/setup.bash'
+[6.186s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/local_setup.zsh'
+[6.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/setup.zsh'

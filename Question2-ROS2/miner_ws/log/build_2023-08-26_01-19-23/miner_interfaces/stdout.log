@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_generator_c[0m
+[  5%] Built target miner_interfaces__cpp
+[  5%] [32mBuilding C object CMakeFiles/miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/miner_interfaces/msg/detail/ores__functions.c.o[0m
+[  5%] Built target ament_cmake_python_symlink_miner_interfaces
+[35m[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target miner_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[  7%] [32mBuilding CXX object CMakeFiles/miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/miner_interfaces/msg/ores__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/miner_interfaces/msg/detail/ores__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/miner_interfaces/msg/detail/dds_fastrtps/ores__type_support.cpp.o[0m
+running egg_info
+writing miner_interfaces.egg-info/PKG-INFO
+writing dependency_links to miner_interfaces.egg-info/dependency_links.txt
+writing top-level names to miner_interfaces.egg-info/top_level.txt
+reading manifest file 'miner_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'miner_interfaces.egg-info/SOURCES.txt'
+[ 12%] Built target ament_cmake_python_build_miner_interfaces_egg

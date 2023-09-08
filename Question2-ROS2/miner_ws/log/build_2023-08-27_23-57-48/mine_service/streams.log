@@ -1,0 +1,58 @@
+[0.011s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.269s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.410s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.465s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.480s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.506s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.510s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.515s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.524s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.540s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.589s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.591s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.663s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.682s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.715s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.721s] -- Looking for pthread.h
+[0.774s] -- Looking for pthread.h - found
+[0.775s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.833s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.834s] -- Found Threads: TRUE  
+[0.940s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.987s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.016s] -- Found miner_interfaces: 0.0.0 (/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake)
+[1.062s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.115s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.115s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/include>
+[1.115s] -- Configured cppcheck exclude dirs and/or files: 
+[1.115s] -- Added test 'lint_cmake' to check CMake code style
+[1.116s] -- Added test 'uncrustify' to check C / C++ code style
+[1.116s] -- Configured uncrustify additional arguments: 
+[1.117s] -- Added test 'xmllint' to check XML markup files
+[1.119s] -- Configuring done
+[1.124s] -- Generating done
+[1.126s] -- Build files have been written to: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service
+[1.135s] Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service' returned '0': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service
+[1.135s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service -- -j8 -l8
+[1.174s] [ 50%] [32mBuilding CXX object CMakeFiles/mine_service.dir/src/mine_service_node.cpp.o[0m
+[1.193s] In file included from [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/src/mine_service_node.cpp:4[m[K:
+[1.194s] [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/include/mine_service/mine_service_node.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.194s]     9 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[1.194s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.194s] compilation terminated.
+[1.194s] gmake[2]: *** [CMakeFiles/mine_service.dir/build.make:76: CMakeFiles/mine_service.dir/src/mine_service_node.cpp.o] Error 1
+[1.194s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mine_service.dir/all] Error 2
+[1.194s] gmake: *** [Makefile:146: all] Error 2
+[1.196s] Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service' returned '2': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service -- -j8 -l8

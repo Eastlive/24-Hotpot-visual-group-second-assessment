@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target look_buffer_transform[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/look_buffer_transform.dir/src/tf2_buffer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable look_buffer_transform[0m
+[100%] Built target look_buffer_transform
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/lib/look_buffer_transform/look_buffer_transform
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/ament_index/resource_index/package_run_dependencies/look_buffer_transform
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/ament_index/resource_index/parent_prefix_path/look_buffer_transform
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/environment/ament_prefix_path.sh
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/environment/ament_prefix_path.dsv
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/environment/path.sh
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/environment/path.dsv
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/local_setup.bash
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/local_setup.sh
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/local_setup.zsh
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/local_setup.dsv
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/package.dsv
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/ament_index/resource_index/packages/look_buffer_transform
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/cmake/look_buffer_transformConfig.cmake
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/cmake/look_buffer_transformConfig-version.cmake
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question3-tf2/3-ROS-urdf-src/install/look_buffer_transform/share/look_buffer_transform/package.xml

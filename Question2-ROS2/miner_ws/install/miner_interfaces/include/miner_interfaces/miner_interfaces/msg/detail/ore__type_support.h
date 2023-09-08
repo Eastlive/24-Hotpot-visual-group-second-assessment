@@ -1,0 +1,1 @@
+/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces/rosidl_generator_c/miner_interfaces/msg/detail/ore__type_support.h

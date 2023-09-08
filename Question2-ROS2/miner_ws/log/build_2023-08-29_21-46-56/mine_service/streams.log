@@ -1,0 +1,64 @@
+[0.012s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service -- -j8 -l8
+[0.039s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.195s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.206s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.237s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.239s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.246s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.272s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.334s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.336s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.449s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.564s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.605s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.637s] -- Found miner_interfaces: 0.0.0 (/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake)
+[0.684s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.738s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.738s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/include>
+[0.738s] -- Configured cppcheck exclude dirs and/or files: 
+[0.739s] -- Added test 'lint_cmake' to check CMake code style
+[0.739s] -- Added test 'uncrustify' to check C / C++ code style
+[0.739s] -- Configured uncrustify additional arguments: 
+[0.740s] -- Added test 'xmllint' to check XML markup files
+[0.742s] -- Configuring done
+[0.756s] -- Generating done
+[0.758s] -- Build files have been written to: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service
+[0.779s] [35m[1mConsolidate compiler generated dependencies of target mine_service_node[0m
+[0.787s] [ 25%] [32mBuilding CXX object CMakeFiles/mine_service.dir/src/mine_service_node.cpp.o[0m
+[0.792s] [ 75%] Built target mine_service_node
+[2.479s] [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/src/mine_service_node.cpp:[m[K In member function ‘[01m[Kvoid mine_service::MineServiceNode::mine_service(std::shared_ptr<miner_interfaces::srv::MineMap_Request_<std::allocator<void> > >, std::shared_ptr<miner_interfaces::srv::MineMap_Response_<std::allocator<void> > >)[m[K’:
+[2.479s] [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/src/mine_service_node.cpp:30:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.479s]    30 | [01;35m[Kconst std::shared_ptr<miner_interfaces::srv::MineMap::Request> request[m[K,
+[2.479s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.479s] 
+[2.479s] [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/src/mine_service_node.cpp:31:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krespense[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.479s]    31 | [01;35m[Knst std::shared_ptr<miner_interfaces::srv::MineMap::Response> respense[m[K)
+[2.479s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.480s] 
+[4.103s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[4.104s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[4.104s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[4.104s]                  from [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/include/mine_service/mine_service_node.hpp:7[m[K,
+[4.104s]                  from [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/src/mine_service_node.cpp:4[m[K:
+[4.104s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = mine_service::MineServiceNode; _Args = {const rclcpp::NodeOptions&}; _Tp = mine_service::MineServiceNode][m[K’:
+[4.104s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = mine_service::MineServiceNode; _Args = {const rclcpp::NodeOptions&}; _Tp = mine_service::MineServiceNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<mine_service::MineServiceNode>][m[K’
+[4.104s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const rclcpp::NodeOptions&}; _Tp = mine_service::MineServiceNode; _Alloc = std::allocator<mine_service::MineServiceNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[4.104s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = mine_service::MineServiceNode; _Alloc = std::allocator<mine_service::MineServiceNode>; _Args = {const rclcpp::NodeOptions&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[4.104s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<mine_service::MineServiceNode>; _Args = {const rclcpp::NodeOptions&}; _Tp = mine_service::MineServiceNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[4.104s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<mine_service::MineServiceNode>; _Args = {const rclcpp::NodeOptions&}; _Tp = mine_service::MineServiceNode][m[K’
+[4.104s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = mine_service::MineServiceNode; _Alloc = std::allocator<mine_service::MineServiceNode>; _Args = {const rclcpp::NodeOptions&}][m[K’
+[4.104s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = mine_service::MineServiceNode; _Args = {const rclcpp::NodeOptions&}][m[K’
+[4.104s] [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:45:40:[m[K   required from ‘[01m[Krclcpp_components::NodeInstanceWrapper rclcpp_components::NodeFactoryTemplate<NodeT>::create_node_instance(const rclcpp::NodeOptions&) [with NodeT = mine_service::MineServiceNode][m[K’
+[4.104s] [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:43:3:[m[K   required from here
+[4.104s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmine_service::MineServiceNode::MineServiceNode(const rclcpp::NodeOptions&)[m[K’
+[4.104s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[4.104s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.104s] [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/src/mine_service_node.cpp:15:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmine_service::MineServiceNode::MineServiceNode()[m[K’
+[4.104s]    15 | [01;36m[KMineServiceNode[m[K::MineServiceNode() : Node("mine_service")
+[4.104s]       | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.114s] [01m[K/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/src/mine_service_node.cpp:15:1:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[4.374s] gmake[2]: *** [CMakeFiles/mine_service.dir/build.make:76: CMakeFiles/mine_service.dir/src/mine_service_node.cpp.o] Error 1
+[4.374s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mine_service.dir/all] Error 2
+[4.374s] gmake: *** [Makefile:146: all] Error 2
+[4.377s] Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service' returned '2': AMENT_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service -- -j8 -l8

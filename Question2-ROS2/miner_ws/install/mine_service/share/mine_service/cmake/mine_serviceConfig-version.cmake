@@ -1,0 +1,1 @@
+/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/ament_cmake_core/mine_serviceConfig-version.cmake

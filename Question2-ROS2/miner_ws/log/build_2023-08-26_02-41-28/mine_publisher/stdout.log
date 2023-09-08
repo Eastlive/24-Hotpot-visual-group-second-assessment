@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target mine_publisher_node[0m
+[35m[1mConsolidate compiler generated dependencies of target mine_publisher[0m
+[100%] Built target mine_publisher
+[100%] Built target mine_publisher_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib/mine_publisher/mine_publisher_node
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/include/mine_publisher/mine_publisher_node.hpp
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/launch/mine_publisher.launch.py
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/config/mine_publisher.yaml
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/ament_index/resource_index/package_run_dependencies/mine_publisher
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/ament_index/resource_index/parent_prefix_path/mine_publisher
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/environment/ament_prefix_path.sh
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/environment/ament_prefix_path.dsv
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/environment/path.sh
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/environment/path.dsv
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/local_setup.bash
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/local_setup.sh
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/local_setup.zsh
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/local_setup.dsv
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/package.dsv
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/ament_index/resource_index/packages/mine_publisher
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/ament_index/resource_index/rclcpp_components/mine_publisher
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/cmake/mine_publisherConfig.cmake
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/cmake/mine_publisherConfig-version.cmake
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/package.xml
+-- Installing: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib/libmine_publisher.so
+-- Set runtime path of "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib/libmine_publisher.so" to ""
+-- Installing: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/cmake/export_mine_publisherExport.cmake
+-- Installing: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/share/mine_publisher/cmake/export_mine_publisherExport-noconfig.cmake

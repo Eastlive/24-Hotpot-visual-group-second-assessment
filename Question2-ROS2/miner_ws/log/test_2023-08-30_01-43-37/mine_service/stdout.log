@@ -1,0 +1,105 @@
+UpdateCTestConfiguration  from :/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/CTestConfiguration.ini
+Parse Config file:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/CTestConfiguration.ini
+   Site: hecate-Yoga-Duet-ITL-2021
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20230829-1743 - Experimental
+UpdateCTestConfiguration  from :/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/CTestConfiguration.ini
+Parse Config file:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/CTestConfiguration.ini
+Test project /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: cppcheck
+
+1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/cppcheck.xunit.xml" "--package-name" "mine_service" "--output-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/cppcheck.xunit.xml" "--include_dirs" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/include"
+1: Test timeout computed to be: 300
+1: -- run_test.py: invoking following command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service':
+1:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/cppcheck.xunit.xml --include_dirs /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/include
+1: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/cppcheck.xunit.xml'
+1/5 Test #1: cppcheck .........................   Passed    0.12 sec
+test 2
+    Start 2: lint_cmake
+
+2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/lint_cmake.xunit.xml" "--package-name" "mine_service" "--output-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/lint_cmake.xunit.xml"
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service':
+2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/lint_cmake.xunit.xml
+2: 
+2: No problems found
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/lint_cmake.xunit.xml'
+2/5 Test #2: lint_cmake .......................   Passed    0.11 sec
+test 3
+    Start 3: uncrustify
+
+3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/uncrustify.xunit.xml" "--package-name" "mine_service" "--output-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/uncrustify.xunit.xml"
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service':
+3:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/uncrustify.xunit.xml
+3: No code style divergence in file 'include/mine_service/mine_service_node.hpp'
+3: 
+3: No code style divergence in file 'src/mine_service_node.cpp'
+3: 
+3: No code style divergence in file 'test/test_mine_service.cpp'
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/uncrustify.xunit.xml'
+3/5 Test #3: uncrustify .......................   Passed    0.14 sec
+test 4
+    Start 4: xmllint
+
+4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/xmllint.xunit.xml" "--package-name" "mine_service" "--output-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/xmllint.xunit.xml"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service':
+4:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/xmllint.xunit.xml
+4: File 'package.xml' is valid
+4: 
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/xmllint.xunit.xml'
+4/5 Test #4: xmllint ..........................   Passed    1.70 sec
+test 5
+    Start 5: test_mine_service
+
+5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/test_mine_service.gtest.xml" "--package-name" "mine_service" "--output-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/ament_cmake_gtest/test_mine_service.txt" "--command" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test/test_mine_service" "--gtest_output=xml:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/test_mine_service.gtest.xml"
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test':
+5:  - /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test/test_mine_service --gtest_output=xml:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/test_mine_service.gtest.xml
+5: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+5: [==========] Running 2 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 2 tests from MineServiceNode
+5: [ RUN      ] MineServiceNode.TestMineCallback
+5: [INFO] [1693331020.131161748] [mine_service]: Starting Mine Service Node
+5: [INFO] [1693331020.134182603] [mine_service]: Received ores
+5: [       OK ] MineServiceNode.TestMineCallback (519 ms)
+5: [ RUN      ] MineServiceNode.TestMineService
+5: [INFO] [1693331020.646483651] [mine_service]: Starting Mine Service Node
+5: terminate called without an active exception
+5: -- run_test.py: return code -6
+5: -- run_test.py: generate result file '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/test_mine_service.gtest.xml' with failed test
+5: -- run_test.py: verify result file '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/test_mine_service.gtest.xml'
+5/5 Test #5: test_mine_service ................***Failed    1.18 sec
+
+80% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 5
+
+Label Time Summary:
+cppcheck      =   0.12 sec*proc (1 test)
+gtest         =   1.18 sec*proc (1 test)
+lint_cmake    =   0.11 sec*proc (1 test)
+linter        =   2.07 sec*proc (4 tests)
+uncrustify    =   0.14 sec*proc (1 test)
+xmllint       =   1.70 sec*proc (1 test)
+
+Total Test time (real) =   3.25 sec
+
+The following tests FAILED:
+	[0;31m  5 - test_mine_service (Failed)[0;0m

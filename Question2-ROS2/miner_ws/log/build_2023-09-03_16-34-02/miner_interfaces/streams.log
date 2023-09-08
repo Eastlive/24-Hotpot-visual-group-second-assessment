@@ -1,0 +1,154 @@
+[0.011s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces -- -j8 -l8
+[0.056s] [  2%] Built target miner_interfaces__cpp
+[0.063s] [ 12%] Built target miner_interfaces__rosidl_generator_c
+[0.064s] [ 12%] Built target ament_cmake_python_symlink_miner_interfaces
+[0.084s] [ 23%] Built target miner_interfaces__rosidl_typesupport_cpp
+[0.085s] [ 34%] Built target miner_interfaces__rosidl_typesupport_introspection_cpp
+[0.086s] [ 44%] Built target miner_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.089s] [ 55%] Built target miner_interfaces__rosidl_typesupport_introspection_c
+[0.093s] [ 76%] Built target miner_interfaces__rosidl_typesupport_c
+[0.093s] [ 76%] Built target miner_interfaces__rosidl_typesupport_fastrtps_c
+[0.110s] [ 76%] Built target miner_interfaces
+[0.133s] [ 78%] Built target miner_interfaces__py
+[0.154s] [ 87%] Built target miner_interfaces__rosidl_generator_py
+[0.177s] [100%] Built target miner_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.177s] [100%] Built target miner_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.177s] [100%] Built target miner_interfaces__rosidl_typesupport_c__pyext
+[0.263s] running egg_info
+[0.264s] writing miner_interfaces.egg-info/PKG-INFO
+[0.264s] writing dependency_links to miner_interfaces.egg-info/dependency_links.txt
+[0.264s] writing top-level names to miner_interfaces.egg-info/top_level.txt
+[0.265s] reading manifest file 'miner_interfaces.egg-info/SOURCES.txt'
+[0.266s] writing manifest file 'miner_interfaces.egg-info/SOURCES.txt'
+[0.289s] [100%] Built target ament_cmake_python_build_miner_interfaces_egg
+[0.297s] Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces -- -j8 -l8
+[0.393s] Invoking command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces
+[0.399s] -- Install configuration: ""
+[0.399s] -- Execute custom install script
+[0.399s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/ament_index/resource_index/rosidl_interfaces/miner_interfaces
+[0.400s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__functions.h
+[0.400s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__struct.h
+[0.400s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__type_support.h
+[0.400s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__functions.h
+[0.400s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__struct.h
+[0.400s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__type_support.h
+[0.400s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/ore.h
+[0.400s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/ores.h
+[0.400s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.400s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__functions.h
+[0.401s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__struct.h
+[0.401s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__type_support.h
+[0.401s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/mine_map.h
+[0.401s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/library_path.sh
+[0.401s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/library_path.dsv
+[0.401s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__rosidl_typesupport_fastrtps_c.h
+[0.401s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__rosidl_typesupport_fastrtps_c.h
+[0.401s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.402s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__rosidl_typesupport_fastrtps_c.h
+[0.402s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__builder.hpp
+[0.402s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__struct.hpp
+[0.402s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__traits.hpp
+[0.402s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__builder.hpp
+[0.402s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__struct.hpp
+[0.402s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__traits.hpp
+[0.402s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/ore.hpp
+[0.402s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/ores.hpp
+[0.402s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__builder.hpp
+[0.402s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__struct.hpp
+[0.402s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__traits.hpp
+[0.403s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/mine_map.hpp
+[0.403s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__rosidl_typesupport_fastrtps_cpp.hpp
+[0.403s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__rosidl_typesupport_fastrtps_cpp.hpp
+[0.403s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.403s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__rosidl_typesupport_fastrtps_cpp.hpp
+[0.403s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__rosidl_typesupport_introspection_c.h
+[0.404s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__rosidl_typesupport_introspection_c.h
+[0.404s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.404s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__rosidl_typesupport_introspection_c.h
+[0.404s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ore__rosidl_typesupport_introspection_cpp.hpp
+[0.404s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/msg/detail/ores__rosidl_typesupport_introspection_cpp.hpp
+[0.404s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/include/miner_interfaces/miner_interfaces/srv/detail/mine_map__rosidl_typesupport_introspection_cpp.hpp
+[0.404s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/pythonpath.sh
+[0.404s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/pythonpath.dsv
+[0.404s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.405s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.405s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.405s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.405s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/__init__.py
+[0.406s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/_miner_interfaces_s.ep.rosidl_typesupport_c.c
+[0.406s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/_miner_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.406s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/_miner_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.406s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/libminer_interfaces__rosidl_generator_py.so
+[0.406s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/miner_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.406s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/miner_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.406s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/miner_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.406s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/msg/__init__.py
+[0.406s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/msg/_ore.py
+[0.406s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/msg/_ore_s.c
+[0.406s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/msg/_ores.py
+[0.407s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/msg/_ores_s.c
+[0.407s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/srv/__init__.py
+[0.407s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/srv/_mine_map.py
+[0.407s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/srv/_mine_map_s.c
+[0.407s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/miner_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.407s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/miner_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.407s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/miner_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.407s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/msg/Ore.idl
+[0.408s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/msg/Ores.idl
+[0.408s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/srv/MineMap.idl
+[0.408s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/msg/Ore.msg
+[0.408s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/msg/Ores.msg
+[0.408s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/srv/MineMap.srv
+[0.408s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/srv/MineMap_Request.msg
+[0.408s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/srv/MineMap_Response.msg
+[0.408s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/ament_index/resource_index/package_run_dependencies/miner_interfaces
+[0.409s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/ament_index/resource_index/parent_prefix_path/miner_interfaces
+[0.409s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/ament_prefix_path.sh
+[0.409s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/ament_prefix_path.dsv
+[0.409s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/path.sh
+[0.409s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/environment/path.dsv
+[0.409s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/local_setup.bash
+[0.409s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/local_setup.sh
+[0.409s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/local_setup.zsh
+[0.409s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/local_setup.dsv
+[0.410s] -- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.dsv
+[0.417s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/ament_index/resource_index/packages/miner_interfaces
+[0.417s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.417s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.417s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.417s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.417s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.418s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.418s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.418s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfacesConfig.cmake
+[0.418s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfacesConfig-version.cmake
+[0.418s] -- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/package.xml
+[0.418s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_generator_c.so
+[0.418s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.419s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.419s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_introspection_c.so
+[0.419s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_c.so
+[0.419s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.419s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_typesupport_cpp.so
+[0.451s] Listing '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces'...
+[0.451s] Listing '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/msg'...
+[0.451s] Listing '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages/miner_interfaces/srv'...
+[0.455s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib/libminer_interfaces__rosidl_generator_py.so
+[0.455s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_generator_cExport.cmake
+[0.455s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.455s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.455s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.455s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_generator_cppExport.cmake
+[0.456s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.456s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.456s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.456s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.456s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_cExport.cmake
+[0.456s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.456s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.457s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.457s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_cppExport.cmake
+[0.457s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/miner_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.457s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_generator_pyExport.cmake
+[0.457s] -- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/share/miner_interfaces/cmake/export_miner_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.460s] Invoked command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces

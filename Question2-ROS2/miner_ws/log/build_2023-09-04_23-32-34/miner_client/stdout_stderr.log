@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target miner_client[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/miner_client.dir/src/miner_client_node.cpp.o[0m
+[ 75%] Built target miner_client_node
+[100%] [32m[1mLinking CXX shared library libminer_client.so[0m
+[100%] Built target miner_client
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/lib/miner_client/miner_client_node
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/include/miner_client/miner_client_node.hpp
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/launch/miner_client.launch.py
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/ament_index/resource_index/package_run_dependencies/miner_client
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/ament_index/resource_index/parent_prefix_path/miner_client
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/environment/path.sh
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/environment/path.dsv
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/local_setup.bash
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/local_setup.sh
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/local_setup.zsh
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/local_setup.dsv
+-- Symlinking: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/package.dsv
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/ament_index/resource_index/packages/miner_client
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/ament_index/resource_index/rclcpp_components/miner_client
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/cmake/miner_clientConfig.cmake
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/cmake/miner_clientConfig-version.cmake
+-- Up-to-date symlink: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/package.xml
+-- Installing: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/lib/libminer_client.so
+-- Set runtime path of "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/lib/libminer_client.so" to ""
+-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/cmake/export_miner_clientExport.cmake
+-- Up-to-date: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_client/share/miner_client/cmake/export_miner_clientExport-noconfig.cmake

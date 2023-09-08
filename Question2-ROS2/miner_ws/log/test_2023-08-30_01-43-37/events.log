@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000187] (mine_service) JobQueued: {'identifier': 'mine_service', 'dependencies': OrderedDict([('miner_interfaces', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces'), ('mine_service', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service')])}
+[0.000505] (mine_service) JobStarted: {'identifier': 'mine_service'}
+[0.022064] (mine_service) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'hecate'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/lib:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hecate'), ('OLDPWD', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1093'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1bf32bd396c560fe3b87b42f64edccee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:8889/'), ('COLCON_PREFIX_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hecate'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('http_proxy', 'http://127.0.0.1:8889/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hecate'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hecate-Yoga-Duet-ITL-2021:@/tmp/.ICE-unix/1093,unix/hecate-Yoga-Duet-ITL-2021:/tmp/.ICE-unix/1093'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7ec4c786_b1ee_44da_be82_a9230c606eb4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XHTHA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.330'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1bf32bd396c560fe3b87b42f64edccee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_service:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/miner_interfaces:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/install/mine_publisher')]), 'shell': False}
+[0.038544] (mine_service) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/CTestConfiguration.ini\n'}
+[0.038951] (mine_service) StdoutLine: {'line': b'Parse Config file:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/CTestConfiguration.ini\n'}
+[0.039063] (mine_service) StdoutLine: {'line': b'   Site: hecate-Yoga-Duet-ITL-2021\n'}
+[0.039120] (mine_service) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.039173] (mine_service) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.039225] (mine_service) StdoutLine: {'line': b'Create new tag: 20230829-1743 - Experimental\n'}
+[0.039278] (mine_service) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/CTestConfiguration.ini\n'}
+[0.039332] (mine_service) StdoutLine: {'line': b'Parse Config file:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/CTestConfiguration.ini\n'}
+[0.039383] (mine_service) StdoutLine: {'line': b'Test project /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service\n'}
+[0.039433] (mine_service) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.039681] (mine_service) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.039739] (mine_service) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.039788] (mine_service) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.039906] (mine_service) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.040004] (mine_service) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.040109] (mine_service) StdoutLine: {'line': b'test 1\n'}
+[0.040158] (mine_service) StdoutLine: {'line': b'    Start 1: cppcheck\n'}
+[0.040205] (mine_service) StdoutLine: {'line': b'\n'}
+[0.040255] (mine_service) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/cppcheck.xunit.xml" "--package-name" "mine_service" "--output-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/cppcheck.xunit.xml" "--include_dirs" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/include"\n'}
+[0.040315] (mine_service) StdoutLine: {'line': b'1: Test timeout computed to be: 300\n'}
+[0.085265] (mine_service) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service':\n"}
+[0.085446] (mine_service) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/cppcheck.xunit.xml --include_dirs /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service/include\n'}
+[0.099847] (-) TimerEvent: {}
+[0.140414] (mine_service) StdoutLine: {'line': b'1: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.149489] (mine_service) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.149789] (mine_service) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/cppcheck.xunit.xml'\n"}
+[0.157019] (mine_service) StdoutLine: {'line': b'1/5 Test #1: cppcheck .........................   Passed    0.12 sec\n'}
+[0.157232] (mine_service) StdoutLine: {'line': b'test 2\n'}
+[0.157293] (mine_service) StdoutLine: {'line': b'    Start 2: lint_cmake\n'}
+[0.157358] (mine_service) StdoutLine: {'line': b'\n'}
+[0.157409] (mine_service) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/lint_cmake.xunit.xml" "--package-name" "mine_service" "--output-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/lint_cmake.xunit.xml"\n'}
+[0.157465] (mine_service) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.199988] (-) TimerEvent: {}
+[0.201262] (mine_service) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service':\n"}
+[0.201714] (mine_service) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/lint_cmake.xunit.xml\n'}
+[0.253076] (mine_service) StdoutLine: {'line': b'2: \n'}
+[0.253289] (mine_service) StdoutLine: {'line': b'2: No problems found\n'}
+[0.261597] (mine_service) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.261852] (mine_service) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/lint_cmake.xunit.xml'\n"}
+[0.270360] (mine_service) StdoutLine: {'line': b'2/5 Test #2: lint_cmake .......................   Passed    0.11 sec\n'}
+[0.270616] (mine_service) StdoutLine: {'line': b'test 3\n'}
+[0.270669] (mine_service) StdoutLine: {'line': b'    Start 3: uncrustify\n'}
+[0.270715] (mine_service) StdoutLine: {'line': b'\n'}
+[0.270759] (mine_service) StdoutLine: {'line': b'3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/uncrustify.xunit.xml" "--package-name" "mine_service" "--output-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/uncrustify.xunit.xml"\n'}
+[0.270807] (mine_service) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.300072] (-) TimerEvent: {}
+[0.311989] (mine_service) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service':\n"}
+[0.312189] (mine_service) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/uncrustify.xunit.xml\n'}
+[0.385993] (mine_service) StdoutLine: {'line': b"3: No code style divergence in file 'include/mine_service/mine_service_node.hpp'\n"}
+[0.386604] (mine_service) StdoutLine: {'line': b'3: \n'}
+[0.386751] (mine_service) StdoutLine: {'line': b"3: No code style divergence in file 'src/mine_service_node.cpp'\n"}
+[0.386878] (mine_service) StdoutLine: {'line': b'3: \n'}
+[0.386962] (mine_service) StdoutLine: {'line': b"3: No code style divergence in file 'test/test_mine_service.cpp'\n"}
+[0.387047] (mine_service) StdoutLine: {'line': b'3: \n'}
+[0.387125] (mine_service) StdoutLine: {'line': b'3: No problems found\n'}
+[0.396241] (mine_service) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.396431] (mine_service) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/uncrustify.xunit.xml'\n"}
+[0.400269] (-) TimerEvent: {}
+[0.407629] (mine_service) StdoutLine: {'line': b'3/5 Test #3: uncrustify .......................   Passed    0.14 sec\n'}
+[0.407872] (mine_service) StdoutLine: {'line': b'test 4\n'}
+[0.407926] (mine_service) StdoutLine: {'line': b'    Start 4: xmllint\n'}
+[0.407979] (mine_service) StdoutLine: {'line': b'\n'}
+[0.408036] (mine_service) StdoutLine: {'line': b'4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/xmllint.xunit.xml" "--package-name" "mine_service" "--output-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/xmllint.xunit.xml"\n'}
+[0.408102] (mine_service) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.463129] (mine_service) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/src/mine_service':\n"}
+[0.463347] (mine_service) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/xmllint.xunit.xml\n'}
+[0.500454] (-) TimerEvent: {}
+[0.600893] (-) TimerEvent: {}
+[0.701425] (-) TimerEvent: {}
+[0.802047] (-) TimerEvent: {}
+[0.902508] (-) TimerEvent: {}
+[1.003039] (-) TimerEvent: {}
+[1.103635] (-) TimerEvent: {}
+[1.204153] (-) TimerEvent: {}
+[1.304624] (-) TimerEvent: {}
+[1.405121] (-) TimerEvent: {}
+[1.505675] (-) TimerEvent: {}
+[1.606259] (-) TimerEvent: {}
+[1.707097] (-) TimerEvent: {}
+[1.808020] (-) TimerEvent: {}
+[1.908490] (-) TimerEvent: {}
+[2.009099] (-) TimerEvent: {}
+[2.083169] (mine_service) StdoutLine: {'line': b"4: File 'package.xml' is valid\n"}
+[2.083532] (mine_service) StdoutLine: {'line': b'4: \n'}
+[2.083678] (mine_service) StdoutLine: {'line': b'4: No problems found\n'}
+[2.100460] (mine_service) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[2.100755] (mine_service) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/xmllint.xunit.xml'\n"}
+[2.109292] (-) TimerEvent: {}
+[2.109810] (mine_service) StdoutLine: {'line': b'4/5 Test #4: xmllint ..........................   Passed    1.70 sec\n'}
+[2.110187] (mine_service) StdoutLine: {'line': b'test 5\n'}
+[2.110330] (mine_service) StdoutLine: {'line': b'    Start 5: test_mine_service\n'}
+[2.110412] (mine_service) StdoutLine: {'line': b'\n'}
+[2.110488] (mine_service) StdoutLine: {'line': b'5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/test_mine_service.gtest.xml" "--package-name" "mine_service" "--output-file" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/ament_cmake_gtest/test_mine_service.txt" "--command" "/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test/test_mine_service" "--gtest_output=xml:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/test_mine_service.gtest.xml"\n'}
+[2.110568] (mine_service) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[2.158274] (mine_service) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test':\n"}
+[2.158514] (mine_service) StdoutLine: {'line': b'5:  - /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test/test_mine_service --gtest_output=xml:/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/test_mine_service.gtest.xml\n'}
+[2.164054] (mine_service) StdoutLine: {'line': b'5: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[2.164240] (mine_service) StdoutLine: {'line': b'5: [==========] Running 2 tests from 1 test suite.\n'}
+[2.164296] (mine_service) StdoutLine: {'line': b'5: [----------] Global test environment set-up.\n'}
+[2.164345] (mine_service) StdoutLine: {'line': b'5: [----------] 2 tests from MineServiceNode\n'}
+[2.164397] (mine_service) StdoutLine: {'line': b'5: [ RUN      ] MineServiceNode.TestMineCallback\n'}
+[2.174086] (mine_service) StdoutLine: {'line': b'5: [INFO] [1693331020.131161748] [mine_service]: Starting Mine Service Node\n'}
+[2.177151] (mine_service) StdoutLine: {'line': b'5: [INFO] [1693331020.134182603] [mine_service]: Received ores\n'}
+[2.209458] (-) TimerEvent: {}
+[2.310148] (-) TimerEvent: {}
+[2.411022] (-) TimerEvent: {}
+[2.511763] (-) TimerEvent: {}
+[2.612494] (-) TimerEvent: {}
+[2.682306] (mine_service) StdoutLine: {'line': b'5: [       OK ] MineServiceNode.TestMineCallback (519 ms)\n'}
+[2.682832] (mine_service) StdoutLine: {'line': b'5: [ RUN      ] MineServiceNode.TestMineService\n'}
+[2.689615] (mine_service) StdoutLine: {'line': b'5: [INFO] [1693331020.646483651] [mine_service]: Starting Mine Service Node\n'}
+[2.712641] (-) TimerEvent: {}
+[2.813091] (-) TimerEvent: {}
+[2.913561] (-) TimerEvent: {}
+[3.014106] (-) TimerEvent: {}
+[3.114634] (-) TimerEvent: {}
+[3.191368] (mine_service) StdoutLine: {'line': b'5: terminate called without an active exception\n'}
+[3.214855] (-) TimerEvent: {}
+[3.285469] (mine_service) StdoutLine: {'line': b'5: -- run_test.py: return code -6\n'}
+[3.285729] (mine_service) StdoutLine: {'line': b"5: -- run_test.py: generate result file '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/test_mine_service.gtest.xml' with failed test\n"}
+[3.285855] (mine_service) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/test_results/mine_service/test_mine_service.gtest.xml'\n"}
+[3.292003] (mine_service) StdoutLine: {'line': b'5/5 Test #5: test_mine_service ................***Failed    1.18 sec\n'}
+[3.292666] (mine_service) StdoutLine: {'line': b'\n'}
+[3.292769] (mine_service) StdoutLine: {'line': b'80% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 5\n'}
+[3.292851] (mine_service) StdoutLine: {'line': b'\n'}
+[3.292930] (mine_service) StdoutLine: {'line': b'Label Time Summary:\n'}
+[3.293008] (mine_service) StdoutLine: {'line': b'cppcheck      =   0.12 sec*proc (1 test)\n'}
+[3.293086] (mine_service) StdoutLine: {'line': b'gtest         =   1.18 sec*proc (1 test)\n'}
+[3.293162] (mine_service) StdoutLine: {'line': b'lint_cmake    =   0.11 sec*proc (1 test)\n'}
+[3.293240] (mine_service) StdoutLine: {'line': b'linter        =   2.07 sec*proc (4 tests)\n'}
+[3.293322] (mine_service) StdoutLine: {'line': b'uncrustify    =   0.14 sec*proc (1 test)\n'}
+[3.293404] (mine_service) StdoutLine: {'line': b'xmllint       =   1.70 sec*proc (1 test)\n'}
+[3.293487] (mine_service) StdoutLine: {'line': b'\n'}
+[3.293567] (mine_service) StdoutLine: {'line': b'Total Test time (real) =   3.25 sec\n'}
+[3.293824] (mine_service) StdoutLine: {'line': b'\n'}
+[3.293915] (mine_service) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[3.294001] (mine_service) StdoutLine: {'line': b'\t\x1b[0;31m  5 - test_mine_service (Failed)\x1b[0;0m\n'}
+[3.294085] (mine_service) StderrLine: {'line': b'Errors while running CTest\n'}
+[3.294206] (mine_service) StderrLine: {'line': b'Output from these tests are in: /home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/mine_service/Testing/Temporary/LastTest.log\n'}
+[3.294295] (mine_service) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[3.297204] (mine_service) CommandEnded: {'returncode': 8}
+[3.297626] (mine_service) TestFailure: {'identifier': 'mine_service'}
+[3.297656] (mine_service) JobEnded: {'identifier': 'mine_service', 'rc': 0}
+[3.298475] (-) EventReactorShutdown: {}

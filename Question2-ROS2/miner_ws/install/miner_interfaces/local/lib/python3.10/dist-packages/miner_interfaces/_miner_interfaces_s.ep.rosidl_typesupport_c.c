@@ -1,0 +1,1 @@
+/home/hecate/code/24-visual-group-second-assessment-Chris/Question2-ROS2/miner_ws/build/miner_interfaces/rosidl_generator_py/miner_interfaces/_miner_interfaces_s.ep.rosidl_typesupport_c.c
